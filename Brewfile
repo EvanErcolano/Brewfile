@@ -18,13 +18,13 @@ brew 'base64'
 brew "dnsmasq", restart_service: true
 brew "git"
 brew "mysql"
+brew "bat"
 
 # Hasicorp
 brew 'terraform'
 brew 'vault'
 brew 'consul'
 brew 'nomad'
-brew 'vagrant'
 
 # Apps
 cask "caffeine"
